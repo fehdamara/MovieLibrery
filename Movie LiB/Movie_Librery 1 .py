@@ -324,7 +324,7 @@ class MovieLibrary:
         #       test       #
         # ================ #
 if __name__ == "__main__":
-    json_path = "https://github.com/fehdamara/MovieLibrery/blob/main/Movie%20LiB/movies.json"
+    json_path = "C:\\Users\\Fehd\\Desktop\\Movie LiB\\movies.json"
     try:
         library = MovieLibrary(json_path)
     except FileNotFoundError as e:
